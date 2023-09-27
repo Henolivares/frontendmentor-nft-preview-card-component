@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-AhN6wF4cn8)
+- [Live Site URL](https://henolivares.github.io/frontendmentor-nft-preview-card-component/)
 
 ## My process
 
