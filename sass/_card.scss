@@ -1,0 +1,87 @@
+.Article {
+  width: min(21.875rem, 90%);
+
+  background-color: var(--clr-very-dark-blue-bg-card);
+  padding: 1.5rem;
+  border-radius: 0.9375rem;
+
+  &-img {
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  &-h1 {
+    font-size: var(--fs-heandig);
+    font-weight: var(--fw-bold);
+    color: var(--clr-white);
+    margin-bottom: 1rem;
+  }
+
+  &-p {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-light);
+    color: var(--clr-soft-blue);
+    margin-bottom: 1.5rem;
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--clr-very-dark-blue-line);
+
+    margin-bottom: 1rem;
+  }
+
+  &-price {
+    display: flex;
+    gap: 0.4375rem;
+    align-items: center;
+    justify-content: center;
+
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-bold);
+    color: var(--clr-cyan);
+  }
+
+  &-logo {
+    display: inline-block;
+    width: 0.6875rem;
+  }
+
+  &-date {
+    display: flex;
+    gap: 0.4375rem;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-regular);
+    color: var(--clr-soft-blue);
+  }
+
+  &-author {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: left;
+  }
+
+  &-avatar {
+    display: inline-block;
+    width: 2.0625rem;
+    border-radius: 100%;
+    border: 2px solid var(--clr-white);
+  }
+
+  &-by {
+    font-size: var(--fs-caption);
+    font-weight: var(--fw-regular);
+    color: var(--clr-soft-blue);
+  }
+
+  &-name {
+    color: var(--clr-white);
+  }
+}
